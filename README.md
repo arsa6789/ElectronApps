@@ -1,5 +1,7 @@
 ## Electron App Template 
 
+by **arsa6789** - [GitHub Repository](https://github.com/arsa6789/ElectronApps)
+
 **IMPORTANT:** Click & open README.md for full instruction. The preview gets cut off. 
 
 A simple ElectronJS starter template for building desktop applications using HTML, CSS, and JavaScript.
@@ -126,8 +128,8 @@ and follow their installation instructions.
 ### 3. Clone This Repo
 
 ```bash
-gitclone https://github.com/nasha-wanich/electron-app-template.git
-cd electron-app-template
+git clone https://github.com/arsa6789/ElectronApps.git
+cd ElectronApps
 ```
 
 ### 4. Install Dependencies
