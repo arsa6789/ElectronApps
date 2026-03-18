@@ -2,6 +2,9 @@
 To run calender app u need to install pixeboy font : https://www.dafont.com/pixeboy.font
 by **arsa6789** - [GitHub Repository](https://github.com/arsa6789/ElectronApps) 
 
+## Bloom Calendar
+[![Download on itch.io](https://img.shields.io/badge/itch.io-Download-ff85b3?style=for-the-badge&logo=itch.io)](https://YOUR-ITCH-URL.itch.io/bloom-calendar)
+
 ## Tutorial
 
 This repo is only for the basic Electron template that you can clone to build whatever you want. But if you're interested in a beginner demonstration tutorial too, see this repositary for a simple Calendar Widget: https://github.com/nasha-wanich/little-calendar 
