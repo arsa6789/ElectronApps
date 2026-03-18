@@ -1,5 +1,5 @@
 ## Electron App 
-
+To run calender app u need to install pixeboy font : https://www.dafont.com/pixeboy.font
 by **arsa6789** - [GitHub Repository](https://github.com/arsa6789/ElectronApps) 
 
 ## Tutorial
