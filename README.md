@@ -37,8 +37,6 @@ This template is great if you are:
 - Building quick prototypes or side projects
 - Looking for a clean starting point without extra complexity
 
-If you’re looking for a guided beginner project after setting up this template, check out this calendar demo repo: https://github.com/nasha-wanich/little-calendar
-
 ---
 
 ## Project Structure
@@ -155,6 +153,3 @@ This will launch a simple Electron desktop window.
 
 ---
 
-## Want a Beginner Walkthrough Project?
-
-If you want a step-by-step desktop app beginner tutorial, check out this repo where we build a calendar widget together: https://github.com/nasha-wanich/little-calendar
