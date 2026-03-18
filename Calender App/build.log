@@ -1,0 +1,43 @@
+
+> calender-app_by-shadowarsa@1.0.0 make
+> electron-forge make --verbose
+
+❯ Checking your system
+❯ Checking package manager version
+✔ Found npm@11.9.0
+✔ Checking your system
+[?25h❯ Loading configuration
+✔ Loading configuration
+❯ Resolving make targets
+› Making for the following targets: , , 
+✔ Resolving make targets
+❯ Running package command
+❯ Preparing to package application
+✔ Preparing to package application
+❯ Running packaging hooks
+❯ Running generateAssets hook
+✔ Running generateAssets hook
+❯ Running prePackage hook
+✔ Running prePackage hook
+✔ Running packaging hooks
+❯ Packaging application
+› Determining targets...
+❯ Packaging for x64 on linux
+❯ Copying files
+❯ Preparing native dependencies
+❯ Finalizing package
+✔ Copying files
+
+An unhandled rejection has occurred inside Forge:
+Error: Unsupported fuse version number: 2
+at flipFuses (/home/shadowarsa/electron-apps/Calender App/node_modules/@electron/fuses/dist/index.js:134:19)
+    at /home/shadowarsa/electron-apps/Calender App/node_modules/@electron-forge/plugin-fuses/dist/FusesPlugin.js:35:49
+    at namedHookWithTaskInner (/home/shadowarsa/electron-apps/Calender App/node_modules/@electron-forge/plugin-base/dist/Plugin.js:43:16)
+    at PluginInterface.triggerHook (/home/shadowarsa/electron-apps/Calender App/node_modules/@electron-forge/core/dist/util/plugin-interface.js:67:31)
+    at runHook (/home/shadowarsa/electron-apps/Calender App/node_modules/@electron-forge/core/dist/util/hook.js:20:39)
+    at /home/shadowarsa/electron-apps/Calender App/node_modules/@electron-forge/core/dist/api/package.js:163:50
+    at /home/shadowarsa/electron-apps/Calender App/node_modules/@electron-forge/core/dist/api/package.js:40:14
+    at node:internal/util:513:21
+    at new Promise (<anonymous>)
+    at node:internal/util:499:12
+    at /home/shadowarsa/electron-apps/Calender App/node_modules/@electron-forge/core/dist/api/package.js:52:59
