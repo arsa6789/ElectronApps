@@ -24,11 +24,12 @@
       },
       "makers": [
         {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "calender_app_by_shadowarsa"
-          }
-        },
+  "name": "@electron-forge/maker-squirrel",
+  "config": {
+    "name": "calender_app_by_shadowarsa",
+    "authors": "shadowarsa"
+  }
+},
         {
           "name": "@electron-forge/maker-zip",
           "platforms": ["win32", "linux"]
