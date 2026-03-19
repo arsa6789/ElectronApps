@@ -1,9 +1,9 @@
 {
   "name": "calender-app_by-shadowarsa",
-"version": "1.0.0",
-"description": "A calendar app by shadowarsa",
-"license": "MIT",
-"main": "main.js",
+  "version": "1.0.0",
+  "description": "A calendar app by shadowarsa",
+  "license": "MIT",
+  "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -24,15 +24,15 @@
       },
       "makers": [
         {
-  "name": "@electron-forge/maker-squirrel",
-  "config": {
-    "name": "calender_app_by_shadowarsa",
-    "authors": "shadowarsa"
-  }
-},
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "calender_app_by_shadowarsa",
+            "authors": "shadowarsa"
+          }
+        },
         {
           "name": "@electron-forge/maker-zip",
-          "platforms": ["win32", "linux"]
+          "platforms": ["win32", "linux", "darwin"]
         },
         {
           "name": "@electron-forge/maker-deb",
@@ -44,14 +44,14 @@
           }
         }
       ],
-   "plugins": [],
+      "plugins": [],
       "publishers": [
         {
           "name": "@electron-forge/publisher-github",
           "config": {
             "repository": {
               "owner": "arsa6789",
-              "name": "https://github.com/arsa6789/ElectronApps"
+              "name": "ElectronApps"
             },
             "prerelease": false
           }
